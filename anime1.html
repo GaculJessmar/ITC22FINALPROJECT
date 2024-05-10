@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Change.css" />
+    <title>Anime</title>
+  </head>
+
+  <body>
+
+    <header class="header" id="header">
+
+
+      <div class = "FixNav">
+      <div class="top-nav">
+        <div class="container d-flex">
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+        <a href="index" class="logo"><h1>CV MOVIES</h1></a>
+
+          <ul class="nav-list d-flex">
+<ul class="nav-list">
+  <li class="nav-item">
+    <a href="index.html" class="nav-link">Home</a>
+  </li>
+
+
+  <li class="nav-item dropdown">
+    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+      Genre
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="Horror.html">Horror</a></li>
+      <li><a href="Comedy.html">Comedy</a></li>
+      <li><a href="Action.html">Action</a></li>
+      <li><a href="Anime.html">Anime</a></li>
+      <li><a href="Kdrama.html">K-drama</a></li>
+    </ul>
+  </li>
+
+
+  <li class="nav-item">
+    <a href="terms.html" class="nav-link">Terms</a>
+  </li>
+  <li class="nav-item">
+    <a href="about.html" class="nav-link">About</a>
+  </li>
+  <li class="nav-item">
+    <a href="contact.html" class="nav-link">Contact</a>
+  </li>
+</ul>
+
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              
+            </div>
+            <div class="icon">
+
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+            </a>
+          </li>
+          </ul>
+
+          <div class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+
+            </a>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="anime1.jpg" id="zoom" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <span>Home/Anime</span>
+          <h1>Spirited Away</h1>
+          <div class="price"></div>
+          <form class="form">
+            <a href="" class="addCart">Watch Now</a>
+          </form>
+          <h3>Product Detail</h3>
+          <p>
+            •Spirited Away tells the story of Chihiro "Sen" Ogino, a ten-year-old girl who, while moving to a new neighborhood, inadvertently enters the world of kami (spirits of Japanese Shinto folklore).[7] After her parents are turned into pigs by the witch Yubaba, Chihiro takes a job working in Yubaba's bathhouse to find a way to free herself and her parents and return to the human world. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section featured">
+      <div class="top container">
+        <h1>Related Products</h1>
+        <a href="anime.html" class="view-more">View more</a>
+      </div>
+      <div class="product-center container">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="anime2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Anime</span>
+            <a href=""> Grave Of The Fireflies </a>
+            <h4></h4>
+          </div>
+          <ul class="icons">
+ 
+            <li><i class="bx bx-search" onclick="location.href='anime2.html'"></i></li>
+
+          </ul>
+        </div>
+
+
+    
+
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>
